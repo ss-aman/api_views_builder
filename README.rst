@@ -18,7 +18,7 @@ How To Use
 
 3. For making viewsets of selected models in a app execute command `python manage.py make_viewset_models '<app_name>' '<model1>' '<model2>'` 
 
-4. After execution commands you will see 3 more files in app, 'rest_serializers.py', 'rest_views.py', 'rest_urls.py', now in project urls add path of rest_urls::
+4. After execution commands you will see 3 more files in app, rest_serializers.py, rest_views.py, rest_urls.py, now in project urls add path of rest_urls::
 	path('', include('app_name.rest_urls')),
 
 
